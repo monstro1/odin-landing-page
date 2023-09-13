@@ -16,12 +16,17 @@ html {
 }
 
 body > header {
+	background-color: var(--dark-bg);
+}
+
+.main-header-container {
+	margin: auto;
 	height: 72px;
+	width: 960px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 16px;
-	background-color: var(--dark-bg);
 }
 
 .logo-txt {
