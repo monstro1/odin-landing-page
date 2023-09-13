@@ -21,6 +21,13 @@ body > header {
 	justify-content: space-between;
 	align-items: center;
 	padding: 16px;
+	background-color: var(--dark-bg);
+}
+
+.logo-txt {
+	font-size: 24px;
+	color: var(--main-txt);
+	font-weight: bold;
 }
 
 nav ul {
@@ -33,4 +40,5 @@ nav ul {
 
 a {
 	text-decoration: none;
+	color: var(--sec-txt);
 }
