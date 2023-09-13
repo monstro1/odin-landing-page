@@ -43,3 +43,39 @@ a {
 	color: var(--sec-txt);
 	font-size: 18px;
 }
+
+.hero-section {
+	padding: 48px;
+	background-color: var(--dark-bg);
+}
+
+.hero-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+	max-width: 60em;
+	margin: auto;
+}
+
+h1 {
+	font-size: 48px;
+	font-weight: bolder;
+	color: var(--main-txt);
+}
+
+.hero-text {
+	margin: 0.5em 0;
+	color: var(--sec-txt);
+	font-size: 18px;
+}
+
+button {
+	padding: 8px 24px;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: var(--btn-bg);
+	color: var(--main-txt);
+	border: none;
+	border-radius: 0.5em;
+}
