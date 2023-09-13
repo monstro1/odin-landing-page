@@ -15,8 +15,13 @@ html {
 	font-family: 'DejaVu Sans', Arial, sans-serif;
 }
 
-body > header {
+body > header, .hero-section, footer {
 	background-color: var(--dark-bg);
+}
+
+.hero-text, a {
+	color: var(--sec-txt);
+	font-size: 18px;
 }
 
 .main-header-container {
@@ -45,13 +50,10 @@ nav ul {
 
 a {
 	text-decoration: none;
-	color: var(--sec-txt);
-	font-size: 18px;
 }
 
 .hero-section {
 	padding: 48px;
-	background-color: var(--dark-bg);
 }
 
 .hero-container {
@@ -71,8 +73,6 @@ h1 {
 
 .hero-text {
 	margin: 0.5em 0;
-	color: var(--sec-txt);
-	font-size: 18px;
 }
 
 button {
@@ -160,7 +160,6 @@ blockquote {
 
 footer {
 	height: 72px;
-	background-color: var(--dark-bg);
 	color: var(--main-txt);
 	display: flex;
 	justify-content: center;
