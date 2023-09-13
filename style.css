@@ -112,6 +112,7 @@ button {
 .client-item img {
 	width: 200px;
 	border-radius: 16px;
+	margin-bottom: 8px;
 }
 
 .quote-section {
