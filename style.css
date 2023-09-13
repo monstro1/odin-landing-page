@@ -83,3 +83,10 @@ button {
 #chicanery {
 	width: 50%;
 }
+
+.clients-section h2 {
+	margin: 1.5em auto;
+	text-align: center;
+	color: var(--dark-bg);
+	font-size: 36px;
+}
